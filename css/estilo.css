@@ -1,10 +1,14 @@
 body{
     font-family:'Times New Roman', Times, serif;
-    background-color: #f2bc94;
+    background-color: #ffffff;
     margin: 10px;
     padding: 10px;
     text-align: center;
     color: black;
+}
+
+#logo1{
+  width: 200px;
 }
 
 h1, h2{
@@ -68,7 +72,7 @@ a:hover{
 
 img{
     height: auto;
-    width: 100%;
+    width: 400px;
     border-radius: 10px;
     margin: 10px;
     max-width: 100%;
@@ -81,6 +85,7 @@ footer{
     padding: 10px 0;
     margin-top: 20px;
 }
+
 
 /*pronto*/
 
@@ -139,7 +144,8 @@ footer{
   
   .slide img {
     width: 100%;
-    display: block;
+    display: block; 
+    
   }
   
   input[type="radio"] {
