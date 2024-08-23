@@ -1,3 +1,90 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f2bc94;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+h1, h2{
+    color: #30110d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+h2{
+    font-size: 2rem;
+    margin: 15px 0;
+}
+p{
+    color: #722620;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    line-height: normal;
+    margin: 15px;
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+    
+}
+ul li{
+    display:inline;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #30110d;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #00bbff;
+}
+
+a{
+    color: #30110d;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 100%;
+
+}
+
+footer{
+    background-color: #30110d;
+    color: #FFF;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/*pronto*/
+
+  /*inicio button*/
 .button {
     color: #FFF;
     background-color: hsla(307, 94%, 44%, 0.973);    /* Blue */
@@ -26,3 +113,69 @@
     color: rgb(255, 0, 0);
     text-decoration: underline;
   }
+
+  /*final button*/
+ 
+  
+  /*início carrosel*/
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ajuste o tamanho conforme necessário */
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  #slide1:checked ~ .slides {
+    transform: translateX(0);
+  }
+  
+  #slide2:checked ~ .slides {
+    transform: translateX(-100%);
+  }
+  
+  #slide3:checked ~ .slides {
+    transform: translateX(-200%);
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+  /*final carrosel*/
