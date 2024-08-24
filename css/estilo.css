@@ -7,20 +7,21 @@ body{
     color: black;
 }
 
-
-
 h1, h2{
     color: #30110d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 h1{
     font-size: 2.5rem;
     margin: 20px 0;
 }
+
 h2{
     font-size: 2rem;
     margin: 15px 0;
 }
+
 p{
     color: #722620;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -34,6 +35,7 @@ ul{
     padding: 0%;
     
 }
+
 ul li{
     display:inline;
     margin: 10px 10px;
@@ -41,6 +43,7 @@ ul li{
     border-radius: 8px;
     border: 2px solid #30110d;
 }
+
 li a:hover{
     text-decoration: underline;
 }
@@ -49,6 +52,7 @@ nav ul{
     list-style: none;
     padding: 0px;
 }
+
 nav ul li{
     display: inline;
     margin-right: 0px;
@@ -73,13 +77,19 @@ a:hover{
 }
 
 #destaque1{
-  background-color: #00bbff;
+  background-color: #00AEB4;
+  margin: 10px 10px;
+  padding: 60px;
 }
 #destaque2{
-  background-color: #00bbff;
+  background-color: #A7B6DA;
+  margin: 10px 10px;
+  padding: 60px;
 }
 #destaque3{
-  background-color: #00bbff;
+  background-color: #9AD4DF;
+  margin: 10px 10px;
+  padding: 60px;
 }
 
 #banner{
@@ -116,7 +126,7 @@ footer{
     font-weight: bold;
     padding: 20px;
     text-align: center;
-    border: 2px solid hsl(323, 99%, 34%);    /* Dark gray */
+    border: none;
     border-radius: 5px;
   
     width: 200px;
@@ -133,7 +143,7 @@ footer{
   }
 
   .button:hover {
-    background-color: blue;
+    background-color: hsl(190, 80%, 41%);
     transform: scale(1.05);
     color: rgb(255, 0, 0);
     text-decoration: underline;
