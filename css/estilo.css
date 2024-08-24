@@ -7,9 +7,7 @@ body{
     color: black;
 }
 
-#logo1{
-  width: 200px;
-}
+
 
 h1, h2{
     color: #30110d;
@@ -70,14 +68,36 @@ a:hover{
     text-decoration: underline;
 }
 
-img{
-    height: auto;
-    width: 400px;
-    border-radius: 10px;
-    margin: 10px;
-    max-width: 100%;
-
+#logo1{
+  width: 200px;
 }
+
+#destaque1{
+  background-color: #00bbff;
+}
+#destaque2{
+  background-color: #00bbff;
+}
+#destaque3{
+  background-color: #00bbff;
+}
+
+#banner{
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+img{
+  height: auto;
+  width: 500px;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 100%;
+}
+
 
 footer{
     background-color: #30110d;
